@@ -20,5 +20,4 @@ test('should render completed todo', () => {
     const todoElement = screen.getByTestId('todo-2');
     expect(todoElement).toBeInTheDocument(); 
     expect(todoElement).toContainHTML('</strike>')
-
 })
